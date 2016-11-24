@@ -3,8 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>Home-work-6</title>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 </head>
 <body>
 	<div class="containar">
@@ -31,22 +33,79 @@
 					<span class="button-text">Explore</span>
 				</div>
 		  	</header>
-		  	<div class="services">
+		  	<section class="services">
 		  			<h3>About</h3>
-		  			<div class="text-services-about">
-			  			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit</p>
-			  		</div>
-			  			<img src="image/services.png" alt="services">
-			  			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-			  			<img src="image/retina.png" alt="retina">
-			  			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-			  			<img src="image/support.png" alt="support">
-			  			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+		  		<div class="text-services-about">
+			  		<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit</p>
+			  	</div>
+			  	<ul class="list-services">
+			  		<li>
+			  			<div class="wrap-img">
+			  				<img src="image/services.png" alt="services">
+			  			</div>
+			  				<h2>Services</h2>
+			  				<span>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</span>
+			  		</li>
+			  		<li>		
+  						<div class="wrap-img">
+			  				<img src="image/retina.png" alt="retina">
+			  			</div>
+			  				<h2>Retina Display</h2>	
+			  				<span>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</span>
+			  		</li>
+			  		<li>
+			  			<div class="wrap-img">	
+			  				<img src="image/support.png" alt="support">
+			  			</div>
+			  				<h2>Full Support</h2>	
+			  				<span>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</span>
+			  		</li>		
+			  	</ul>	
+		  	</section>
+		  	<section class="portfolio">
+		  		<h3>Portfolio</h3>
+		  		<div>
+					<ul class="nav nav-tabs" role="tablist">
+					    <li class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+					    <li><a href="#design" aria-controls="design" role="tab" data-toggle="tab">Design</a></li>
+					    <li><a href="#web" aria-controls="web" role="tab" data-toggle="tab">Wed</a></li>
+					    <li><a href="#illustration" aria-controls="illustration" role="tab" data-toggle="tab">Illustration</a></li>
+					    <li><a href="#motion" aria-controls="motion" role="tab" data-toggle="tab">Motion</a></li>
+					 </ul>
+				<div class="tab-content">
+					 <div role="tabpanel" class="tab-pane fade in active" id="all">
+					    <div class="portfolio-image">
+							<img src="image/banks.png" alt="banks">
+						</div>
+						<div class="portfolio-image">
+							<img src="image/adress.png" alt="adress">
+						</div>
+						<div class="portfolio-image">
+							<img src="image/kitchen1.png" alt="kitchen1">
+						</div>
+						<div class="portfolio-image">
+							<img src="image/heading.png" alt="heading">
+						</div>
+						<div class="portfolio-image">
+							<img src="image/350org.png" alt="350org">
+						</div>
+						<div class="portfolio-image">
+							<img src="image/take-action.png" alt="take-action">
+						</div>
+					</div>
 
 
 
 
-		  	</div>
+
+
+					  <div role="tabpanel" class="tab-pane fade" id="design">...</div>
+					  <div role="tabpanel" class="tab-pane fade" id="web">...</div>
+					  <div role="tabpanel" class="tab-pane fade" id="illustration">...</div>
+					  <div role="tabpanel" class="tab-pane fade" id="motion">...</div>
+					</div>
+				</div>	
+		  	</section>
 		
 
 
@@ -56,29 +115,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	</div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="jquery-1.12.4.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+ <!-- <script src="js/script.js"></script> -->
 </body>
 </html>
