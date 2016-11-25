@@ -147,7 +147,7 @@ body {
 }
 
 .services h3 {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Droid Sans', sans-serif;
 	font-size: 40px;
 	font-weight: bold;
 	color: #ffffff;
@@ -179,6 +179,7 @@ body {
 }
 
 .list-services h2 {
+	font-family: 'Droid Sans', sans-serif;
 	font-size: 26px;
 	font-weight: bold;
 	color: #ffffff;
@@ -193,19 +194,21 @@ body {
 	line-height: 25px;
 }
 /* End Section services*/
+
 /*PORTFOLIO SECTION*/
 
 .portfolio {
 	background: #ffffff;
+	min-height: 1076px;
 }
 
 .portfolio h3 {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Droid Sans', sans-serif;
 	font-size: 40px;
 	font-weight: bold;
 	color: #2c3e50;
 	text-align: center;
-	padding-top: 110px;
+	padding-top: 102px;
 	padding-bottom: 75px;
 }
 .nav {
@@ -251,8 +254,117 @@ body {
     border: 1px solid #e9e9e9;
     padding: 10px;
     box-sizing: content-box;
+}
 
+.overlay {
+	height: 260px;
+	width: 348px;
+	background-color: rgba(53, 73, 94, 0.9);
+	position: relative;
+    top: -263px;
+    display: none;	 	  
+}
+
+.portfolio-image img:hover + .overlay,
+.portfolio-image .overlay:hover {
+	display: block;
+}
+
+.overlay-text {
+	font-family: 'Droid Sans', sans-serif;
+	color: #ffffff;
+	font-size: 35px;
+	font-weight: bold;
+	display: block;
+	margin-left: 75px;
+    padding-top: 106px;
+}
+
+.overlay-button {
+	font-family: 'Droid Serif', serif;
+	display: block;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 14px 0px 14px 20px;
+	margin: 24px 116px 0px 116px;
+    border: 1px solid #ffffff;
+    border-radius: 20px 20px 20px 20px;
+}
+/*PORTFOLIO SECTION END
+
+/*TEAM SECTION*/
+
+.team {
+	background: #2980b9;
+	padding-bottom: 100px;
+}
+
+.team h3 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 124px;
+	padding-bottom: 70px;
+}
+
+.list-team {
+	text-align: center;
+}
+
+.list-team li{
+	display: inline-block;
+	width: 340px;
+	text-align: center;
+	margin: 30px;
+}
+
+.list-team h2 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.list-team span {
+	display: block;
+	font-family: 'Droid Serif', serif;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 54px;
+}
+
+.image-team img {
+	border: 4px solid #ffffff;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    background-color: #fff;
+}
+
+.instagram-team{
+	padding-left: 30px;
 }
 
 
-/*PORTFOLIO SECTION END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*END TEAM SECTION*/
