@@ -343,28 +343,163 @@ body {
     border-radius: 50%;
     height: 220px;
     width: 220px;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
-.instagram-team{
-	padding-left: 30px;
+img {
+	margin-right: 22px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*END TEAM SECTION*/
+
+/*CONTACT SECTION*/
+.contact {
+	background: #ffffff;
+	min-height: 858px;
+	margin-bottom: 80px;
+}
+
+.contact h3 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #2c3e50;
+	text-align: center;
+	padding-top: 122px;
+	padding-bottom: 70px;
+}
+
+.contact p {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 28px;
+	color: #2c3e50;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.form-contact {
+	float: left;
+	margin-left: 332px;
+	width: 378px;
+	height: 416px;
+}
+
+.form-contact input {
+	border: none;
+	border-bottom: 2px solid #2ecc71;
+}
+
+.form-contact input:focus{
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #2ecc71;
+}
+
+.form-contact textarea {
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #2ecc71;
+	width: 342px;
+    height: 141px;
+    resize: none;
+}
+
+.form-contact ::-webkit-input-placeholder {
+	font-family: 'Droid Serif', serif;
+	color:#2c3e50;
+	font-size: 26px;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+.form-contact ::-moz-placeholder {
+	font-family: 'Droid Serif', serif;
+	color:#2c3e50;
+	font-size: 26px;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+.form-contact :-moz-placeholder {
+	font-family: 'Droid Serif', serif;
+	color:#2c3e50;
+	font-size: 26px;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+.form-contact :-ms-input-placeholder {
+	font-family: 'Droid Serif', serif;
+	color:#2c3e50;
+	font-size: 26px;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+.form-contact .button-submite {
+	font-family: 'Droid Serif', serif;
+	background:#2ecc71;
+	color: #ffffff;
+	border-radius: 20px 20px 20px 20px;
+	font-weight: normal;
+	font-size: 21px;
+	padding: 10px 30px 10px 30px;
+	margin-right: 220px;
+}
+
+
+.adress-contact {
+	float: right;
+	display: block;
+	width: 200px;
+	margin-right: 221px;
+}
+
+.adress-contact dt {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	color: #2c3e50;
+	font-weight: bold;
+	margin-top: 60px;
+	
+}
+.adress-contact dt:first-child {
+	margin-top: 0px;
+
+}
+.adress-contact dd {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 20px;
+	color: #747d87;
+	padding-top: 8px;
+}
+/*END CONTACT SECTION*/
+
+.footer {
+	background: #2c3e50;
+	min-height: 282px;
+}
+
+.footer-logo {
+	margin-top: 74px;
+	margin-bottom: 20px;
+	margin-left: 154px;
+}
+
+.footer-information {
+	margin-left: 154px;
+}
+
+.footer-information >* {
+    display: inline-block;
+}
+
+.footer-information p {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: 24px;
+	margin-right: 140px;
+}
+
+.footer-image img {
+	margin-right: 22px;
+}
