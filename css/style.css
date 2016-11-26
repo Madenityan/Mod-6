@@ -64,9 +64,6 @@ body {
 	width: 1280px;
 	height: 774px;
 	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	z-index: -1;
 }
 
@@ -114,10 +111,12 @@ body {
   width: 50px;
   height: 50px;
   background: #2ecc71;
-  cursor: pointer;
   border-radius: 50%;
   margin-left: 610px;
 }
+.button-circle:hover {
+	text-decoration:none;
+	}
 
 .button-arrow {
 	display: block;
@@ -399,7 +398,6 @@ img {
 	border: none;
 	outline: none;
 	border-bottom: 2px solid #2ecc71;
-	width: 342px;
     height: 141px;
     resize: none;
 }
